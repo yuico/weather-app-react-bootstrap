@@ -17,14 +17,14 @@ npm start
 
 ## Description
 
-- The First setion (left nav bars of web, bottom nav bars of mobile size): one for "**Favorite Locations**" and one for displaying the weather based on a chosen location.
-- The other section (right section of web, top section of mobile size) shows selected location, and includes (1) an icon for the current weahter conditions, (2) current temperature, and (3) description of details.
-- There is Four icons related to weather conditions, such as rain, snow, sun(clear sky) and default one (Excepcting thress condition the default icon will show.)
+- The First section (left nav bars of web, bottom navbars of mobile size): one for "**Favorite Locations**" and one for displaying the weather based on a chosen location.
+- The other section (right section of the web, the top section of mobile size) shows the selected location and includes (1) an icon for the current weather conditions, (2) current temperature, and (3) a description of details.
+- There are Four icons related to weather conditions, such as rain, snow, sun(clear sky), and default one (Excepting three conditions the default icon will show).
 
 ### Weather icons
 <img src="mdfile/weather_img.JPG" width="50%" height="50%">
 
-- When the toggle button is clicked, the temperature will conver celcius to farenheit or opposite way
+- Toggle the temperature to Fahrenheit or vice versa by clicking the toggle button located at the top right of the header.
 ### Web version
 <img src="mdfile/web1_c.PNG" width="100%" height="100%">
 <img src="mdfile/web1_f.JPG" width="100%" height="100%">
