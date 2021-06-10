@@ -15,14 +15,10 @@ npm i
 npm start
 ```
 
-For production environments...
+## Description
 
-```sh
-npm install --production
-NODE_ENV=production node app
-```
+- The First setion (left nav bars of web, bottom nav bars of mobile size): one for "**Favorite Locations**" and one for displaying the weather based on a chosen location.
+- The other section (right section of web, top section of mobile size) shows selected location, and includes (1) an icon for the current weahter conditions, (2) current temperature, and (3) description of details.
+- There is Four icons related to weather conditions, such as rain, snow, sun(clear sky) and default one (Excepcting thress condition the default icon will show.)
 
-## HOW TO USE THIS APP
-
-- Two sections (fixed in place): one for "**Favorite Locations**" and one for displaying the weather based on a chosen location.
-- The other section should be titled with the current location, and includes (1) an icon for the current conditions, (2) current temperature, and (3) description of current conditions.
+![web1](./mdfile/web1)
