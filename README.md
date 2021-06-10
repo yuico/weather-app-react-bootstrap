@@ -22,6 +22,7 @@ npm start
 - There is Four icons related to weather conditions, such as rain, snow, sun(clear sky) and default one (Excepcting thress condition the default icon will show.)
 
 ![icon](mdfile/weather_img.JPG){:height="50%" width="50%"}
+<img src="mdfile/weather_img.JPG" width="50%" height="50%">
 ![web1-c](mdfile/web1_c.PNG){:height="50%" width="50%"}
 ![web1-f](mdfile/web1_f.PNG){:height="50%" width="50%"}
 ![mobile-c](mdfile/mobile1_c.PNG){:height="50%" width="50%"}
