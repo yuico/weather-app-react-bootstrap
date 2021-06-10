@@ -23,5 +23,5 @@ npm start
 
 <img src="mdfile/weather_img.JPG" width="50%" height="50%">
 <img src="mdfile/web1_c.PNG" width="50%" height="50%">
-<img src="mdfile/mobile1_c.PNG" width="50%" height="50%">
-<img src="mdfile/mobile1_f.PNG" width="50%" height="50%">
+<img src="mdfile/mobile1.JPG" width="50%" height="50%">
+<img src="mdfile/mobile1_f.JPG" width="50%" height="50%">
