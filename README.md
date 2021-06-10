@@ -21,8 +21,8 @@ npm start
 - The other section (right section of web, top section of mobile size) shows selected location, and includes (1) an icon for the current weahter conditions, (2) current temperature, and (3) description of details.
 - There is Four icons related to weather conditions, such as rain, snow, sun(clear sky) and default one (Excepcting thress condition the default icon will show.)
 
-![icon](mdfile/weather_img.JPG =400x220)
-![web1-c](mdfile\web1_c.PNG =600x300)
-![web1-f](mdfile\web1_f.PNG =600x300)
-![mobile-c](mdfile\mobile1_c.PNG =210x400)
-![mobile-c](mdfile\mobile1_f.PNG =210x400)
+![icon](mdfile/weather_img.JPG | 400x220)
+![web1-c](mdfile\web1_c.PNG | 600x300)
+![web1-f](mdfile\web1_f.PNG | 600x300)
+![mobile-c](mdfile\mobile1_c.PNG | 210x400)
+![mobile-c](mdfile\mobile1_f.PNG | 210x400)
