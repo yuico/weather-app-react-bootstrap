@@ -1,7 +1,5 @@
 # Weather App 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)]
-
-Responsive **Weather App** with **React** and **Bootstrap**
+Responsive **Weather App** with **React** and **Bootstrap*
 
 - OpenWeatherMap API: https://openweathermap.org/api
 - ✨**React**, **Bootstrap4**, SCSS, Hooks with **Context API**
