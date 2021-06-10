@@ -24,6 +24,7 @@ npm start
 ### Weather icons
 <img src="mdfile/weather_img.JPG" width="50%" height="50%">
 
+- When the toggle button is clicked, the temperature will conver celcius to farenheit or opposite way
 ### Web version
 <img src="mdfile/web1_c.PNG" width="100%" height="100%">
 <img src="mdfile/web1_f.JPG" width="100%" height="100%">
