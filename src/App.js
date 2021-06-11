@@ -22,6 +22,7 @@ function App() {
     }
     fetchData(CITIES);
   }, [])
+  
   return (
     <MyContext.Provider value={{weatherData, toggleOn}}>
       <Header parentCallback={callback}/>
