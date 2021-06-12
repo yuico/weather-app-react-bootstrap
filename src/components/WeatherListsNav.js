@@ -24,10 +24,8 @@ const WeatherListsNav = ({ parentCallback }) => {
             <Nav.Item className='nav-item-link' as='li' key={`nav-${i}`}>
               <Nav.Link
                 eventKey={i + 1}
-                id={`${loc.name}-${i}`}
                 href={`#${loc.name}`}
                 onClick={(e) => {
-                  console.log(e.target.id);
                   parentCallback(i);
                 }}
                 className='left-col-list'
