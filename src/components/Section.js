@@ -7,16 +7,11 @@ import SelectedLocation from './SelectedLocation';
 const Section = () => {
   const [idx, setIdx] = useState(0);
 
-  //get index from child componet
-  const callback = useCallback((idx) => {
-    setIdx(idx);
-  }, []);
-
   return (
     <Container as='section'>
       <Row id='main-row'>
         <Col as='nav' sm={4} className='mb-3' id='left-col'>
-          <WeatherListsNav parentCallback={callback} />
+          <WeatherListsNav parentCallback={setIdx} />
         </Col>
         <Col as='main' sm={8} id='right-col'>
           <SelectedLocation idx={idx} />

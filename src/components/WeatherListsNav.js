@@ -2,12 +2,10 @@ import { useContext } from 'react';
 import { MyContext } from '../lib/context';
 import { matchWeather } from '../lib/utils';
 import { Card, Nav } from 'react-bootstrap';
+import Loading from './Loading';
 
 const WeatherListsNav = ({ parentCallback }) => {
   const { weatherData } = useContext(MyContext); //get global data using Context api
-  const handleLocation = (e) => {
-    parentCallback(e.target.id.split('-')[1]);
-  };
 
   return (
     <Card border='0'>
@@ -21,14 +19,17 @@ const WeatherListsNav = ({ parentCallback }) => {
         id='left-col-body'
         activeKey='1'
       >
-        {weatherData &&
+        {weatherData ? (
           weatherData.map((loc, i) => (
             <Nav.Item className='nav-item-link' as='li' key={`nav-${i}`}>
               <Nav.Link
                 eventKey={i + 1}
                 id={`${loc.name}-${i}`}
                 href={`#${loc.name}`}
-                onClick={handleLocation}
+                onClick={(e) => {
+                  console.log(e.target.id);
+                  parentCallback(i);
+                }}
                 className='left-col-list'
               >
                 <img
@@ -40,7 +41,10 @@ const WeatherListsNav = ({ parentCallback }) => {
                 </span>
               </Nav.Link>
             </Nav.Item>
-          ))}
+          ))
+        ) : (
+          <Loading />
+        )}
       </Nav>
     </Card>
   );

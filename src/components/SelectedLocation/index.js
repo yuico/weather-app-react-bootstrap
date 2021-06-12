@@ -9,7 +9,6 @@ import Loading from '../Loading';
 function SelectedLocation({ idx }) {
   const { weatherData, toggleOn } = useContext(MyContext); //get global data using Context api
   const [data, setData] = useState();
-
   useEffect(() => {
     const fetchData = async (city) => {
       const res = await fetchFiveDaysData('forecast/daily', city);
@@ -18,9 +17,12 @@ function SelectedLocation({ idx }) {
     fetchData(weatherData[idx].id);
   }, [weatherData, idx]);
 
-  console.log(data);
-
-  if (weatherData === undefined) return <Loading />;
+  if (weatherData[idx] === undefined)
+    return (
+      <Card border='0'>
+        <Loading />
+      </Card>
+    );
 
   //Cal Temperature based on the toggle button
   const getTemperature = (temp) => {
